@@ -92,7 +92,7 @@ if contour.size == 0:
     
 
 reordered_points = reorder(contour)
-width, height = 640, 480
+width, height = 1300, 800
 pts1 = np.float32(reordered_points)
 pts2 = np.float32([[0, 0], [width, 0], [width, height], [0, height]])
 
